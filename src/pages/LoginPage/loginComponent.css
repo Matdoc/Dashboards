@@ -1,0 +1,135 @@
+.login-page {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    max-width: 1800px;
+    height: 90vh;
+    background: #1b222f;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(12, 12, 12), 0 6px 20px rgba(31, 31, 31, 0.19);
+    overflow: hidden;
+}
+  
+  .login-image {
+    flex: 1;
+    background: url('../../assets/freepik__financial-dashboards-users__85078.jpeg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .login-content {
+    width: 50%;
+    height: 100%;
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #fffafa; /* Subtle text color for contrast */
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .login-form label {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff; /* Darker text for labels */
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc; /* Light border */
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff6e9; /* White input fields */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .login-button {
+    width: 100%;
+    background: #f5c150; /* Same color as card */
+    color: #030303; /* Subtle text color */
+    padding: 12px 15px;
+    border: 2px solid #cbbfa1; /* Defined border */
+    border-radius: 25px; /* Rounded pill shape */
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-button:hover {
+    background: #fbe18e; /* Slightly darker shade on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  .forgetpassword-link {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .forgetpassword-link a {
+    color: #fcfcfc; /* Match text color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .forgetpassword-link a:hover {
+    text-decoration: underline;
+    color: #c0840c;
+  }
+  
+  .error-message{
+    font-size: medium;
+    color: #920909;
+  }
+
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-input-container input {
+    width: 100%;
+    padding-right: 30px; /* Adjust padding to make space for the eye icon */
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  
